@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UIActionSheetDelegate>
+- (IBAction)ShowAlertView:(id)sender;
+- (IBAction)ShowActionSheet:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *showAlert;
 @end

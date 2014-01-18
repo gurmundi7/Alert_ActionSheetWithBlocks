@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107747461882B07B00F170D3 /* UIAlertView+BlockAndSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 107747451882B07B00F170D3 /* UIAlertView+BlockAndSelector.m */; };
+		107747491882B0A600F170D3 /* UIActionSheet+BlockAndSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 107747481882B0A600F170D3 /* UIActionSheet+BlockAndSelector.m */; };
 		52A3F4DC187AC8B8003ABCED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A3F4DB187AC8B8003ABCED /* Foundation.framework */; };
 		52A3F4DE187AC8B8003ABCED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A3F4DD187AC8B8003ABCED /* CoreGraphics.framework */; };
 		52A3F4E0187AC8B8003ABCED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A3F4DF187AC8B8003ABCED /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107747441882B07B00F170D3 /* UIAlertView+BlockAndSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlockAndSelector.h"; sourceTree = "<group>"; };
+		107747451882B07B00F170D3 /* UIAlertView+BlockAndSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlockAndSelector.m"; sourceTree = "<group>"; };
+		107747471882B0A600F170D3 /* UIActionSheet+BlockAndSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+BlockAndSelector.h"; sourceTree = "<group>"; };
+		107747481882B0A600F170D3 /* UIActionSheet+BlockAndSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+BlockAndSelector.m"; sourceTree = "<group>"; };
 		52A3F4D8187AC8B8003ABCED /* Alert_ActionSheetWithBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alert_ActionSheetWithBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A3F4DB187AC8B8003ABCED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52A3F4DD187AC8B8003ABCED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +123,10 @@
 				52A3F4ED187AC8B9003ABCED /* Main.storyboard */,
 				52A3F4F0187AC8B9003ABCED /* ViewController.h */,
 				52A3F4F1187AC8B9003ABCED /* ViewController.m */,
+				107747441882B07B00F170D3 /* UIAlertView+BlockAndSelector.h */,
+				107747451882B07B00F170D3 /* UIAlertView+BlockAndSelector.m */,
+				107747471882B0A600F170D3 /* UIActionSheet+BlockAndSelector.h */,
+				107747481882B0A600F170D3 /* UIActionSheet+BlockAndSelector.m */,
 				52A3F4F3187AC8B9003ABCED /* Images.xcassets */,
 				52A3F4E2187AC8B8003ABCED /* Supporting Files */,
 			);
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107747491882B0A600F170D3 /* UIActionSheet+BlockAndSelector.m in Sources */,
 				52A3F4F2187AC8B9003ABCED /* ViewController.m in Sources */,
 				52A3F4EC187AC8B8003ABCED /* AppDelegate.m in Sources */,
 				52A3F4E8187AC8B8003ABCED /* main.m in Sources */,
+				107747461882B07B00F170D3 /* UIAlertView+BlockAndSelector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +472,7 @@
 				52A3F50C187AC8B9003ABCED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52A3F50D187AC8B9003ABCED /* Build configuration list for PBXNativeTarget "Alert_ActionSheetWithBlocksTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				52A3F50F187AC8B9003ABCED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
