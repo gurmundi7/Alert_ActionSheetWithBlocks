@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7C7FF6F2-1E31-4F16-BCBC-B27F9A30ED1B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Alert_ActionSheetWithBlocks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2E6CA1AF-6119-463E-90C3-16B3FFA6D0F7</key>
+		<string>https://github.com/gurmundi7/Alert_ActionSheetWithBlocks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Alert_ActionSheetWithBlocks.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2E6CA1AF-6119-463E-90C3-16B3FFA6D0F7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gurmundi7/Alert_ActionSheetWithBlocks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2E6CA1AF-6119-463E-90C3-16B3FFA6D0F7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E6CA1AF-6119-463E-90C3-16B3FFA6D0F7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alert_ActionSheetWithBlocks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
